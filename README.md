@@ -41,3 +41,43 @@ Cela remplit le dossier ````week-3```` sur votre ordinateur avec tout ce que con
 En faisant un ````ls````, vous pourrez voir la liste des fichiers copiés. 
 
 Vous voila prete pour l'exercice !
+
+# Etape 2: Lire l'exercice et se lancer
+
+# Etape 3: Enregistrer les modifications sur le répertoire distant
+
+Lorsque vous avez fait des modifications dans votre projet ````week-2````, vous pouvez avoir besoin de les enregistrer pour ne pas les effacer malencontreusement. Pour cela, vous allez les 'committer'. 
+
+Pour committer ces changements, vous devez d'abord les ajouter aux modifications à prendre en compte avec la commande:
+``` Console
+git add .
+````
+
+Si vous souhaitez ne prendre en compte que certaines modifications et pas d'autres, vous pouvez utiliser la commande:
+``` Console
+git add -p 
+````
+Cela vous permettra de visualier chaque modification et de l'ajouter (````y````) ou non (````n````). 
+
+PS: Si vous voulez simplement visualiser les fichiers modifiés, faites:
+``` Console
+git status
+````
+
+Pour rendre l'enregistrement des modifications effectif, il faut faire la commande:
+``` Console
+git commit 
+````
+
+Si vous voulez décrire le contenu de votre commit, vous pouvez y ajouter une option:
+``` Console
+git commit -m "description blabla"
+````
+Cela permet de savoir rapidement à quoi correspond le commit, au lieu de regarder sa composition. 
+
+Pour envoyer votre commit vers votre repertoire distant (sur Github), vous devez ensuite utiliser la commande ````push````:
+```Console
+git push 
+````
+
+Allez voir sur github, vos modifications apparaitront :)
