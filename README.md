@@ -44,6 +44,28 @@ Vous voila prete pour l'exercice !
 
 # Etape 2: Lire l'exercice et se lancer
 
+Ouvrez votre projet week-3 avec l'éditeur que vous utilisez. 
+Si vous utilisez SublimeText, vous pouvez faire ````subl.```` dans la console pour ouvrir directement votre projet. 
+
+Regardez l'architecture du projet.
+Vous devriez voir plusieurs fichiers et dossiers, dont les principaux:
+- app: Contient principalement les controlleurs, les vues, les modèles et les assets de l'application
+- config: Contient les fichiers de cnofiguration relatifs à l'application
+- db: Contient tout ce qui permet de construire la base de donnée
+- Gemfile: Contient la liste des plug-ins déjà existants qui vont etre utilisés dans l'application
+
+Si vous ouvrez le dossier ````app````, vous découvrirez les dossiers suivants:
+- controlleurs (controllers) : Ils réagissent aux actions des utilisateurs et vont chercher les données dans la base (grace aux modèles) pour les mettre à disposition des vues.
+- modèles (models) : Ce sont des objets assurant la gestion des données.
+- vues (views) : Elles correspondent à la manière d'afficher les informations à l'utilisateur. Il s'agit généralement d'une combinaison de code HTML et de Ruby dans des fichiers .html.erb.
+- assets: Ce sont les images, les morceaux de code javascript et les feuilles de style en CSS utilisés dans les vues.
+
+Apres avoir navigué dans les différents dossiers, ouvrez le fichier 
+- ouvrir fichier de travail (controller )
+- lancer server 
+- regarder sur le navigateur
+- trouver le fichier html a chanegr pour afficher le cabinet de curiosité (copié collé)
+
 # Etape 3: Enregistrer les modifications sur le répertoire distant
 
 Lorsque vous avez fait des modifications dans votre projet ````week-2````, vous pouvez avoir besoin de les enregistrer pour ne pas les effacer malencontreusement. Pour cela, vous allez les 'committer'. 
@@ -81,3 +103,7 @@ git push
 ````
 
 Allez voir sur github, vos modifications apparaitront :)
+
+# Pour aller plus loin:
+- Avoir une définition succinte de Ruby On Rails : https://fr.wikipedia.org/wiki/Ruby_on_Rails
+- L documentation officielle de Ruby On Rails : http://guides.rubyonrails.org/
